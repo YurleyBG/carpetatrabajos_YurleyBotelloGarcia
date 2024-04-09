@@ -73,4 +73,45 @@ while i < 4:
 
 #Funciones (4 Tipos)
 
+#sin parametro sin retorno
+def saludo():
+    
+    print("holaa mundoo!!")
+
+
+
+saludo()
+    
+
+#con parametro sin retorno
+
+def suma(a,b,c):
+    
+    resultado=a+b+c
+
+    print(resultado)
+
+suma(4,5,4)
+
+#con parametro con retorno
+def num(a,b,c,d):
+    suma=a+b+c+d
+    result=suma/4
+    return result
+
+result=num(20,40,7,2)
+print(result)
+
+
+#sin parametro con retorno
+def suma():
+    x=3
+    y=17
+    z=10
+    return x+y+z
+
+resultado=suma()
+print (resultado)
+
+ 
 #Desarrollado por Yurley Botello Garcia - T.I 1066085539
