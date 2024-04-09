@@ -54,7 +54,7 @@ print(str(b))#tipo al que se convierte
 #Bucles For y While
 
 #Bucles For 
-nombre=("maria", "luis","kiara", "carlo")
+nombre=("maria", "luis","kiara", "carlos")
 for i in nombre:
     print(i)
     if i == "carlos":
@@ -67,7 +67,7 @@ i=0
 while i < 4:
     print(i)
     if i==3:
-        break
+         break
     i+= 1
 
 
