@@ -110,79 +110,100 @@ print("5.generar contraseña")
 print("6. salir")
 print("__________________________________________________________________")
 print(" ")
-import random
+
+#import random
 
           
 
-lon=True
-while lon :
-    opci=int(input("ingrese su  opcion"))
+#lon=True
+#while lon :
+    #opci=int(input("ingrese su  opcion"))
 
-    if opci==1:
+    #if opci==1:
         
-        print("cantidad de digitos en su contraseña")
-    dig=int(input("ingrese la cantidad de digitos que quiere para su contraseña"))
-    print(" ")  
-    if opci==2:
-        print("letras minusculas")
-        minuscu="abcdefghijklmnopqrstuvwxyz"
-        minu=int(input("desea agreagar letras minusculas "))
-        if minu=="si":
-          min=int(input("cuales  desea agregar"))
-        else:
-            print("no desea ninguna")
-            break
+       # print("cantidad de digitos en su contraseña")
+    #dig=int(input("ingrese la cantidad de digitos que quiere para su contraseña"))
+    #print(" ")  
+    #if opci==2:
+      # print("letras minusculas")
+       # minuscu="abcdefghijklmnopqrstuvwxyz"
+        #minu=int(input("desea agreagar letras minusculas "))
+       # if minu=="si":
+       #   min=int(input("cuales  desea agregar"))
+       # else:
+           # print("no desea ninguna")
+           # break
             
-    elif opci==3:
-        print("letras mayusculas")
-        mayus=minuscu.upper()
-        mayu=int(input("desea agreagar letras mayusculas "))
-        if mayu=="si":
-          may=int(input("cualesdesea agregar"))
-        else:
-            print("no desea ninguna")
-            break
+   # elif opci==3:
+        #print("letras mayusculas")
+       # mayus=minuscu.upper()
+       # mayu=int(input("desea agreagar letras mayusculas "))
+       # if mayu=="si":
+          #may=int(input("cualesdesea agregar"))
+       # else:
+            #print("no desea ninguna")
+            #break
             
-    elif opci==4:
-        print("numeros y simbolos")
-        nume = "0123456789"
-        simb = "{}[]()*;/,_-"
-        sib=input("desea agregar simblos")
-        num=int(input("desea agreagar numeros "))
-        if num=="si":
-          nu=int(input("cuales desea agregar"))
-        else:
-            print("no desea ninguna")
             
-        if sib=="si":
-            sib=input("cuales desea agregar")
-            break
-        elif opci==5:
-           minusc=min
-           mayus=may
-           nume = nu
-           simb =sib
+     #elif opci==4:
+         #print("numeros y simbolos")
+        # nume = "0123456789"
+        # simb = "{}[]()*;/,_-"
+        #sib=input("desea agregar simblos")
+         #num=int(input("desea agreagar numeros "))
+         #if num=="si":
+           #nu=int(input("cuales desea agregar"))
+         #else:
+            # print("no desea ninguna")
+            
+         #if sib=="si":
+            #sib=input("cuales desea agregar")
+           # break
+         #elif opci==5:
+            #minusc=min
+            #mayus=may
+            #nume = nu
+            #simb =sib
 
-           contra = minusc+mayus+nume+simb
-           longitud=dig
+            #contra = minusc+mayus+nume+simb
+           # longitud=dig
 
-           contra_r=random.sample(contra, longitud)
-           passworde=" ".join(contra)
-           print(passworde)
+           # contra_r=random.sample(contra, longitud)
+          # passworde=" ".join(contra)
+          # print(passworde)
 
-        elif opci==5:
-         print("haz abandonado el programa")
-        print("HASTA LA PROXIMA")
-        break
+        #elif opci==5:
+        # print("haz abandonado el programa")
+       # print("HASTA LA PROXIMA")
+        #break
   
-lon=False
+#lon=False
 
+import random
 
+def pass_ge(longi):
 
+    minusc="abcdefghijklmnopqrstuvwxyz"
+    #minu=str(input("que letras quiere agregar"))
+    mayuscu=minusc.upper()
+   # mayus=str(input("que letras quiere agregar"))
+    num="0123456789"
+    #n=int(input("que numero quiere agregar"))
+    sim="{}[]()*;/,_-"
+    #sib=input("que simbolos quiere agregar")
 
+    longit=int(input("ingrese la cantidad de digito que desea que tenga su contraseña : "))
 
+    result= minusc + mayuscu + num+ sim
+    longi=longit
+    passworu=random.sample(result, longi)
 
+    passwor_r = "".join(passworu)
 
+    return passwor_r
+
+contrase=pass_ge("long")
+print("password," , {contrase})
 
 
 
