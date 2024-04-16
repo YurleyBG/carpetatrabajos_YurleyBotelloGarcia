@@ -8,6 +8,7 @@ for i in range (can):
     lista=int(input())
     print(lista)
     
+    
 
 
 
