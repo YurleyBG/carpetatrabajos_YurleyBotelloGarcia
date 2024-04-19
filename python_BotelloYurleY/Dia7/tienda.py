@@ -80,7 +80,7 @@ while bob :
         for producticos in menu_productos.items():
             print(producticos)
         
-            
+             
        
        
         prodagre=input("\nque productos desea agregar al carrito de comprar INGRESE SU IDENTIFICADOR : ")
@@ -121,5 +121,5 @@ while bob :
         print("----------------------------------")
         break
 bob=False
-
+ 
 #desarrollado por   yurley botello TI 1066085539 y nilson  carvajal  TI 1093907710 :)
