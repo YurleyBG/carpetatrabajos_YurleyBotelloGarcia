@@ -28,7 +28,7 @@ Gith Bash
 git clone  "link del repositorio"
 ~~~
 al hacer esto se descargará  los datos del repositorio. puedes usar visual studio code para correr cada uno de los códigos en la terminal.
-[!Recuerda tener instalado python en tu máquina local.]
+Recuerda tener instalado python en tu máquina local.
 
  ## Tecnología utilizadas
 
