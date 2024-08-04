@@ -34,7 +34,7 @@ Recuerda tener instalado python en tu máquina local.
 
 + Python
 
-## Estructura de Proyecto
+## Estructura 
 ![alt text](pincture/image.png)
 ![alt text](pincture/image-1.png)
 ## Crédito 
