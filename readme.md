@@ -16,8 +16,8 @@ Cuenta con varios proyectos realizados en python.
 | 8 | Dia8 |
 | 9 | Dia9 |
 | 10 | Dia10 |
-| 11 | DIA11 |
-| 12 | DIA12 |
+| 11 | Dia11 |
+| 12 | Dia12 |
 
 ## Instalación
  Deberas ejecutar el siguiente comando para clonar el repositorio y ver cada uno de los proyectos  desde tu maquina local:
@@ -28,7 +28,7 @@ Gith Bash
 git clone  "link del repositorio"
 ~~~
 al hacer esto se descargará  los datos del repositorio. puedes usar visual studio code para correr cada uno de los códigos en la terminal.
-==Recuerda tener instalado python en tu máquina local.==
+[!Recuerda tener instalado python en tu máquina local.]
 
  ## Tecnología utilizadas
 
