@@ -25,7 +25,7 @@ Cuenta con varios proyectos realizados en python.
 Gith Bash
 
 ~~~ 
-git clone  "link del repositorio"
+git clone  "link del repositorio" https://github.com/YurleyBG/carpetatrabajos_YurleyBotelloGarcia.git
 ~~~
 al hacer esto se descargará  los datos del repositorio. puedes usar visual studio code para correr cada uno de los códigos en la terminal.
 Recuerda tener instalado python en tu máquina local.
